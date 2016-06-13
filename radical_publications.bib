@@ -4,24 +4,6 @@
 ################################################################################
 
 
-
-@misc{entk,
-    author      = {Vivek Balasubramanian and Antons Trekalis and Ole Weidner and Shantenu Jha},
-    title       = {Ensemble Toolkit: Scalable and Flexible Execution of
-                  Ensembles of Tasks},
-    optbooktitle = {International Conference on Parallel Processing},
-    year        = 2016,
-    optlocation = {Philadelphia, Pennsylvania, USA},
-    note        = {(under review) \newline \url{http://arxiv.org/abs/1602.00678}}
-}
-
-@misc{review_repex_2016, 
-  author      = {Antons Treikalis and Andre Merzky and Darrin York and Shantenu Jha},
-  title       = {{RepEx}: A Flexible Framework for Scalable Replica Exchange Molecular Dynamics Simulations},
-  note        = {(under review) \newline \url{ http://arxiv.org/abs/1601.05439}},
-  year        = 2016,
-}
-
 @misc{review_radicalpilot,
   author      = {Andre Merzky and Mark Santcroos and Matteo Turilli and Shantenu Jha},
   title       = {{Executing Dynamic and Heterogeneous Workloads on Super Computers}},
@@ -59,12 +41,12 @@
    }
 
 
-@article{turilli2016analysis,
-  title={Analysis of Distributed Execution of Workloads},
-  author={Turilli, Matteo and Nand Babuji, Yadu and Merzky, Andre and Tai Ha, Ming and Wilde, Michael and S. Katz, Daniel and Jha, Shantenu},
-  journal={in review, arXiv preprint http://arxiv.org/abs/1605.09513},
+@misc{review_turilli2016analysis,
+  author={Matteo Turilli and Yadu Nand Babuji and Andre Merzky and Ming Tai Ha and Michael Wilde and Daniel S. Katz and Shantenu Jha},
+  title={{Analysis of Distributed Execution of Workloads}},
+  OPTjournal={Under review},
   year={2016},
-  note = {\newline{http://arxiv.org/pdf/1605.09513v1.pdf}}
+  note = {\newline \url{http://arxiv.org/pdf/1605.09513v1.pdf}}
 }
 
 
@@ -95,14 +77,15 @@
 ####################
 # 2016
 
-@article{ccpe-2016-error,
-author = {Jason Maassen et al, },
-title = {On the Complexities of Utilizing Large-Scale Lightpath-Connected Distributed Cyberinfrastructure},
+﻿@article {ccpe-2016-error,
+author = {Jason Maassen and Ben van Werkhoven and Maarten van Meersbergen and Henri E. Bal and Michael Kliphuis and Sandra E. Brunnabend and Henk A. Dijkstra and Gerben van Malenstein and Migiel de Vos and Sylvia Kuijpers and Sander Boele and Jules Wolfrat and Nick Hill and David Wallom and Christian Grimm and Dieter Kranzlmüller and Dinesh Ganpathi and Shantenu Jha and Yaakoub El Khamra and Frank O. Bryan and Benjamin Kirtman and Frank J. Seinstra},
+title = {On the complexities of utilizing large-scale lightpath-connected distributed cyberinfrastructure},
 journal = {Concurrency and Computation: Practice and Experience},
-issn = {in press},
-opturl = {http://dx.doi.org/10.1002/cpe.3013},
-optdoi = {10.1002/cpe.3013},
-optpages = {n/a--n/a},
+issn = {1532-0634},
+url = {http://dx.doi.org/10.1002/cpe.3853},
+doi = {10.1002/cpe.3853},
+pages = {n/a--n/a},
+keywords = {distributed cyberinfrastructure, lightpaths, global climate modeling},
 optkeywords = {next-generation sequencing data analytics, science gateway, BFAST, mapping, ChIP-Seq, human genome, Burkerholderia glumae, mouse genome, runtime environment, distributed computing, simple API for grid applications (SAGA), pilot-job abstraction},
 year = {2016},
 }
@@ -553,6 +536,49 @@ year = {2013},
 
 ###################
 # 2016
+@inproceedings{repex-icpp-2016,
+  author      = {Antons Treikalis and Andre Merzky and Haoyuan Chen and 
+                 Tai-Sung Lee and Darrin M. York and Shantenu Jha},
+  title       = {RepEx: A Flexible Framework for Scalable Replica
+                 Exchange Molecular Dynamics Simulations},
+  booktitle   = {Proceedings of the 45th International Conference on Parallel Processing (ICPP-2016)},
+  location    = {Philadelphia, USA},
+  year = {2016},
+  note         = {\url{http://arxiv.org/abs/1601.05439}},
+}
+
+@inproceedings{entk-icpp-2016,
+    author      = {Vivek Balasubramanian and Antons Trekalis and Ole Weidner and Shantenu Jha},
+    title       = {{Ensemble Toolkit: Scalable and Flexible Execution of Ensembles of Tasks}},
+    booktitle   = {International Conference on Parallel Processing},
+    location    = {Philadelphia, Pennsylvania, USA},
+    year        = {2016},
+    note        = {\url{http://arxiv.org/abs/1602.00678}},
+}
+
+
+@inproceedings{aimes-ipdps-2016,
+  author      = {Matteo Turilli and Feng (Francis) Liu and Zhao Zhang and Andre
+                  Merzky and Michael Wilde and Jon Weissman and Daniel S. Katz
+                  and Shantenu Jha},
+  title       = {Integrating Abstractions to Enhance the Execution of
+                  Distributed Applications},
+  booktitle   = {Proceedings of 30th IEEE International  Parallel and Distributed Processing Symposium (IPDPS)},
+  location    = {Chicago, Illinois, USA},
+  year = {2016 (in press)},
+  note         = {\url{http://arxiv.org/abs/1504.04720}},
+}
+
+@inproceedings{hadoop-on-hpc,
+    author      = {Andre Luckow and Ioannis Paraskevakos and George
+                  Chantzialexiou and Shantenu Jha},
+    title       = {{Hadoop on HPC: Integrating Hadoop and Pilot-based Dynamic
+                  Resource Management }},
+    booktitle   = {Workshop on High-Performance Big Data Computing},
+    year        = {2016 (in press)},
+    location    = {Chicago, Illinois, USA},
+    note         = {\newline \url{http://arxiv.org/abs/1602.00345}}
+}
 
 @inproceedings{cug-2016,
     title={Executing dynamic heterogeneous workloads on Blue Waters with RADICAL-Pilot},
@@ -562,39 +588,8 @@ year = {2013},
     year={2016}
 }
 
-@inproceedings{ipdps-2016,
-  author      = {Matteo Turilli and Feng (Francis) Liu and Zhao Zhang and Andre
-                  Merzky and Michael Wilde and Jon Weissman and Daniel S. Katz
-                  and Shantenu Jha},
-  title       = {Integrating Abstractions to Enhance the Execution of
-                  Distributed Applications},
-  booktitle   = {Proceedings of 30th IEEE International  Parallel and Distributed Processing Symposium (IPDPS)},
-  location    = {Chicago, USA},
-  note         = {\url{http://arxiv.org/abs/1504.04720}},
-  year = {2016},
-}
-
-@misc{hadoop-on-hpc,
-    author      = {Andre Luckow and Ioannis Paraskevakos and George
-                  Chantzialexiou and Shantenu Jha},
-    title       = {{Hadoop on HPC: Integrating Hadoop and Pilot-based Dynamic
-                  Resource Management }},
-    optbooktitle   = {Workshop on High-Performance Big Data Computing},
-    year        = {2016 (in press)},
-    optlocation    = {Chicago, Illinois, USA},
-    note         = {\newline \url{http://arxiv.org/abs/1602.00345}},
-    OPTnote        = {r Review},
-}
-
-@article{review_synapse_wrap,
-  author    = {Andre Merzky and Shantenu Jha},
-  title     = {Synapse: Bridging the Gap Towards Predictable Workload
-               Placement},
-  year      = {2016},
-  note      = {accepted, \url{http://arxiv.org/abs/1506.00272}}
-}
-
-
+###################
+# 2015
 
 ###################
 # 2014
